@@ -2,11 +2,59 @@
   margin: 0px;
   padding: 0px;
 }
+.start {
+  display: flex;
+}
 .logo-parent {
   display: flex;
   justify-content: space-between;
   list-style: none;
   gap: 5px;
+}
+.list ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  margin: 0px;
+  padding: opx;
+}
+.list a {
+  text-decoration: none;
+}
+.common-btn {
+  background-color: blue;
+  color: white;
+  widht: 190px;
+  height: auto;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hero {
+  position: relative;
+}
+.hero img {
+  width: 100%;
+  display: block;
+}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50;
+  text-align: center;
+  color: white;
+}
+.container {
   max-width: 1200px;
   margin: auto;
+}
+.Speaker-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+.speakers h1 {
+  text-align: center;
+  margin-bottom: 15px;
 }
