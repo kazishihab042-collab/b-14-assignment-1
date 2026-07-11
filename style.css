@@ -102,12 +102,12 @@
 .price-card-pro button {
   background-color: #1e3a5f;
   color: white;
-  width: 100%;
+  width: 200px;
   padding: 12px;
   border: 1px solid blue;
   border-radius: 5px;
   position: absolute;
   bottom: -20px;
   transform: translate(-50%);
-  right: -155px;
+  right: -43px;
 }
