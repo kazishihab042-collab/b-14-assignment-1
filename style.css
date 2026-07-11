@@ -16,7 +16,7 @@
   list-style: none;
   gap: 10px;
   margin: 0px;
-  padding: opx;
+  padding: 0px;
 }
 .list a {
   text-decoration: none;
@@ -152,7 +152,7 @@
 }
 .image-programme {
   display: flex;
-  gap: 5epx;
+  gap: 5px;
 
   justify-content: center;
   margin: 20px;
